@@ -9,7 +9,7 @@ export default function Header() {
 
   return (
     <header className="bg-teal-950">
-      <div className="container mx-auto flex items-center justify-between p-3 relative">
+      <div className="container mx-auto flex items-center justify-between py-3 relative">
         <div className="text">
           <h1 className="text-teal-500 font-bold text-2xl">
             <Link href={"/"}>DocAI</Link>
