@@ -7,7 +7,7 @@ export default function About() {
       <div className="container flex max-md:flex-col items-center mx-auto gap-10">
         <div className="w-full">
           <h2 className="font-bold text-3xl">
-            What's <span className="text-teal-950">DocAI</span>?
+            What&apos;s <span className="text-teal-950">DocAI</span>?
           </h2>
           <p className="my-3 text-lg leading-relaxed">
             DocAI is a healthcare platform that helps you get reliable health
