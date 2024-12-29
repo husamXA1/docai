@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -17,8 +18,8 @@ export default function Home() {
           <h1 className="text-teal-950 font-bold text-3xl">DocAI</h1>
           <p className="m-3">A platform to improve healthcare literacy</p>
           <div className="flex buttons justify-center gap-3">
-            <button className="rounded-xl px-5 py-2 bg-teal-950 text-teal-100 font-bold border border-teal-950">ChatBot</button>
-            <button className="rounded-xl px-5 py-2 text-teal-950 font-bold border border-teal-950">Contact A Doctor</button>
+            <Link href={'/ai'} className="rounded-xl px-5 py-2 bg-teal-950 text-teal-100 font-bold border border-teal-950">ChatBot</Link>
+            <Link href={'/contact'} className="rounded-xl px-5 py-2 text-teal-950 font-bold border border-teal-950">Contact A Doctor</Link>
           </div>
         </div>
       </div>
