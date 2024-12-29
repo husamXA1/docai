@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Features() {
   return (
     <section className="py-10">
-      <div className="container mx-auto flex flex-wrap justify-center gap-10">
+      <div className="container mx-auto flex flex-wrap justify-center md:justify-between gap-10">
         <div className="w-[280px]">
           <Image
             className="w-full h-[280px]"
