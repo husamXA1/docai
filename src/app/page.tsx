@@ -1,9 +1,11 @@
-import Hero from "./Hero";
+import About from "@/components/Home/About";
+import Hero from "@/components/Home/Hero";
 
 export default function Home() {
   return (
-    <main className="py-10">
-      {Hero()}
+    <main>
+      <Hero />
+      <About />
     </main>
   );
 }
